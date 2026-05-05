@@ -6,7 +6,8 @@
       "Bash(where py:*)",
       "Bash(C:\\\\Python314\\\\python.exe -c \"from PIL import Image; print\\('Pillow available'\\)\")",
       "Bash(py -m pip install Pillow)",
-      "Bash(py -c ':*)"
+      "Bash(py -c ':*)",
+      "Bash(py \"C:\\\\Users\\\\arsha\\\\Desktop\\\\legend-sign\\\\rebuild.py\")"
     ]
   }
 }
