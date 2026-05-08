@@ -7,7 +7,13 @@
       "Bash(C:\\\\Python314\\\\python.exe -c \"from PIL import Image; print\\('Pillow available'\\)\")",
       "Bash(py -m pip install Pillow)",
       "Bash(py -c ':*)",
+<<<<<<< HEAD
       "Bash(py \"C:\\\\Users\\\\arsha\\\\Desktop\\\\legend-sign\\\\rebuild.py\")"
+=======
+      "Bash(cat)",
+      "Bash(powershell -ExecutionPolicy Bypass -File /tmp/slice_final.ps1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File /tmp/resize.ps1)"
+>>>>>>> cc650a18a264820367827c7c7b821f8498b4eb42
     ]
   }
 }
