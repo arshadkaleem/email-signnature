@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Signatures</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        padding: 40px 20px;
+        color: #333;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 40px;
+        color: #222;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .group {
+        background: #fff;
+        border-radius: 10px;
+        padding: 24px 28px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .group h2 {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-bottom: 12px;
+        margin-bottom: 16px;
+        border-bottom: 2px solid;
+    }
+
+    /* Legend Group — red theme */
+    .legend-group h2 {
+        color: #c0392b;
+        border-color: #c0392b;
+    }
+
+    /* Leading Goals — gold/navy theme */
+    .leading-goals h2 {
+        color: #1a2a5e;
+        border-color: #f0a500;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    ul li a {
+        display: block;
+        padding: 10px 16px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        transition: background 0.2s;
+    }
+
+    /* Legend Group link style */
+    .legend-group ul li a {
+        color: #c0392b;
+        background: #fdf2f2;
+        border: 1px solid #f5c6c6;
+    }
+    .legend-group ul li a:hover {
+        background: #c0392b;
+        color: #fff;
+    }
+
+    /* Leading Goals link style */
+    .leading-goals ul li a {
+        color: #1a2a5e;
+        background: #f5f7ff;
+        border: 1px solid #c5cde8;
+    }
+    .leading-goals ul li a:hover {
+        background: #1a2a5e;
+        color: #fff;
+    }
+
+    ul li a span {
+        font-size: 12px;
+        font-weight: 400;
+        opacity: 0.6;
+        margin-left: 8px;
+    }
+</style>
+</head>
+<body>
+
+<h1>Email Signatures</h1>
+
+<div class="container">
+
+    <!-- LEGEND GROUP -->
+    <div class="group legend-group">
+        <h2>Legend Group</h2>
+        <ul>
+            <li><a href="legend-group/sofian-sign.html">Sofian Alqurashi <span>CEO</span></a></li>
+            <li><a href="legend-group/abdullah-sign.html">Abdullah Almakhzoom <span>COO</span></a></li>
+            <li><a href="legend-group/amasi-sign.html">Amasi Alfarsi <span>Account Manager</span></a></li>
+        </ul>
+    </div>
+
+    <!-- LEADING GOALS -->
+    <div class="group leading-goals">
+        <h2>Leading Goals Group</h2>
+        <ul>
+            <li><a href="leading-goals/sofian/sofian-leadinggoals-sign.html">Sofian Alqurashi <span>CMFO</span></a></li>
+            <li><a href="leading-goals/islam-elsayed/islam-elsayed-sign.html">Islam Elsayed <span>Sales Manager</span></a></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
