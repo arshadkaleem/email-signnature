@@ -6,7 +6,10 @@
       "Bash(where py:*)",
       "Bash(C:\\\\Python314\\\\python.exe -c \"from PIL import Image; print\\('Pillow available'\\)\")",
       "Bash(py -m pip install Pillow)",
-      "Bash(py -c ':*)"
+      "Bash(py -c ':*)",
+      "Bash(cat)",
+      "Bash(powershell -ExecutionPolicy Bypass -File /tmp/slice_final.ps1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File /tmp/resize.ps1)"
     ]
   }
 }
